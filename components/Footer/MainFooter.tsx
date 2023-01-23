@@ -11,6 +11,8 @@ import {
 } from "react-icons/ai";
 function MainFooter({ isDark }: any) {
   const router = useRouter();
+  const date= new Date()
+  const year = date.getFullYear()
   return (
     <footer
       aria-label="Site Footer"
@@ -322,13 +324,13 @@ function MainFooter({ isDark }: any) {
         <div className="mt-12 border-t border-gray-200 pt-6 dark:border-gray-800">
           <div className="text-center sm:flex sm:justify-between sm:text-left">
             <p className="text-sm text-gray-500 dark:text-gray-400">
-              <span className="block sm:inline">All rights reserved.</span>
+              <span className="block sm:inline">All rights reserved. </span>
 
               <Link
                 className="inline-block text-megamind_red underline transition hover:text-megamind_red/75 dark:text-megamind_red dark:hover:text-megamind_red/75"
                 href="/"
               >
-                Terms & Conditions
+                 Terms & Conditions
               </Link>
 
               <span> </span>
@@ -342,7 +344,7 @@ function MainFooter({ isDark }: any) {
             </p>
 
             <p className="mt-4 text-sm text-gray-500 dark:text-gray-400 font-Red_Hat_Display sm:order-first sm:mt-0">
-              &copy; 2022 Company Name
+              &copy; {year} Megamind Studios LLP
             </p>
           </div>
         </div>
