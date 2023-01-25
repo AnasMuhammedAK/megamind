@@ -9,6 +9,12 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation: {
+        "my-bounce": "bounceing 3s linear infinite alternate-reverse",
+        "my-bounce-2": "bounceing2 3s linear infinite alternate",
+        "my-bounce-3": "bounceing3 3s linear infinite alternate"
+      },
+
       colors: {
         ...colors,
         megamind_red: "#E31313",

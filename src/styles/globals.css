@@ -142,3 +142,58 @@ body{
   transform: scale(1, 1);
   transform-origin: top left;
 }
+
+@keyframes bounceing {
+  0%, 100% {
+    transform: translateY(-3%);
+  }
+  50% {
+    transform: translateY(0);
+  }
+}
+@keyframes bounceing2 {
+  0%, 100% {
+    transform: translatex(-3%);
+  }
+  50% {
+    transform: translatex(0);
+  }
+}
+@keyframes bounceing3 {
+  0%, 100% {
+    transform: translatex(3%);
+  }
+  50% {
+    transform: translatex(0);
+  }
+}
+.Slxdj,.kXteup {
+  display: none !important;
+}
+.cVXxbE {
+  background-color: #E31313 !important;
+  box-shadow: 0 0 1px 3px #E31313 !important;
+}
+.ezKHIn{
+    background-color: #F2F2F2 !important;
+    box-shadow: 0 0 1px 2px #E31313 !important;
+}
+.CircularProgressbar-path {
+  stroke: #E31313 !important;
+}
+.CircularProgressbar-text {
+  fill: #E31313 !important;
+}
+.css-1elwnq4-MuiPaper-root-MuiAccordion-root {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.87);
+    -webkit-transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    border-radius: 4px;
+    box-shadow: none !important;
+    position: relative;
+    -webkit-transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    overflow-anchor: none;
+    border-radius: 0;
+}

@@ -10,7 +10,7 @@ function Text1() {
       >
         <div className="flex items-center mb-4">
           <h1 className="border-b-2  border-megamind_red w-12"></h1>
-          <h1 className="ml-3 leading-normal text-xl text-megamind_red">
+          <h1 className="ml-3 leading-normal text-2xl text-megamind_red">
             Modern Digital Solutions
           </h1>
         </div>

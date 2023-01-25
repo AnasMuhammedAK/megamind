@@ -15,7 +15,6 @@ function MainFooter({ isDark }: any) {
   const year = date.getFullYear()
   return (
     <footer
-      aria-label="Site Footer"
       className="bg-megamind_white dark:bg-megamind_black shadow-inner"
     >
       <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
@@ -111,8 +110,8 @@ function MainFooter({ isDark }: any) {
             </ul>
           </div>
 
-          <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-            <div className="text-center sm:text-left">
+          <div className="grid grid-cols-2 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2 px-4 mt-4 sm:mt-0">
+            <div className="text-left sm:text-left">
               <p className="text-xl font-medium font-Red_Hat_Display text-gray-900 dark:text-white">
                 About Us
               </p>
@@ -158,7 +157,7 @@ function MainFooter({ isDark }: any) {
               </nav>
             </div>
 
-            <div className="text-center sm:text-left">
+            <div className="text-left sm:text-left">
               <p className="text-xl font-medium font-Red_Hat_Display text-gray-900 dark:text-white">
                 Our Services
               </p>
@@ -204,7 +203,7 @@ function MainFooter({ isDark }: any) {
               </nav>
             </div>
 
-            <div className="text-center sm:text-left">
+            <div className="text-left sm:text-left">
               <p className="text-xl font-medium font-Red_Hat_Display text-gray-900 dark:text-white">
                 Helpful Links
               </p>
@@ -233,7 +232,7 @@ function MainFooter({ isDark }: any) {
               </nav>
             </div>
 
-            <div className="text-center sm:text-left">
+            <div className="text-left sm:text-left">
               <p className="text-xl font-medium font-Red_Hat_Display text-gray-900 dark:text-white">
                 Contact Us
               </p>
@@ -241,7 +240,7 @@ function MainFooter({ isDark }: any) {
               <ul className="mt-8 space-y-4 text-sm">
                 <li>
                   <Link
-                    className="flex items-center justify-center gap-1.5 sm:justify-start"
+                    className="flex items-center justify-start gap-1.5 sm:justify-start"
                     href="/"
                   >
                     <svg
@@ -267,7 +266,7 @@ function MainFooter({ isDark }: any) {
 
                 <li>
                   <Link
-                    className="flex items-center justify-center gap-1.5 sm:justify-start"
+                    className="flex items-center justify-start  gap-1.5 sm:justify-start"
                     href="/"
                   >
                     <svg
@@ -291,7 +290,7 @@ function MainFooter({ isDark }: any) {
                   </Link>
                 </li>
 
-                <li className="flex items-start justify-center gap-1.5 sm:justify-start">
+                <li className="flex items-start justify-start  gap-1.5 sm:justify-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-5 w-5 shrink-0 text-gray-900 dark:text-white"
