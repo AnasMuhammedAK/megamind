@@ -9,8 +9,8 @@ function Section4() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10">
         <div>
           <div className="flex items-center mt-10">
-            <h1 className="border-b-2  border-megamind_red w-12"></h1>
-            <h1 className="ml-3  text-2xl text-megamind_red">About Company</h1>
+            <h1 className="border-b-2  border-megamind_red w-8"></h1>
+            <h1 className="ml-3  text-xl text-megamind_red">About Company</h1>
           </div>
           <h1 className="font-Red_Hat_Display text-4xl dark:text-megamind_white font-extrabold max-w-[400px]  mt-6">
             Best Digital Solutions Agency For Business

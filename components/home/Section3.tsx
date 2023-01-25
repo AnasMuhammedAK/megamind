@@ -6,7 +6,7 @@ function Section3() {
     <div className=" dark:bg-megamind_black w-full min-h-[520px] 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64 py-16">
       <div className="flex items-center xl:mt-16 w-full justify-center">
         <h1 className="border-b-2  border-megamind_red w-12"></h1>
-        <h1 className="mx-4  text-2xl text-megamind_red">Over 20+ Clients</h1>
+        <h1 className="mx-4  text-xl text-megamind_red">Over 20+ Clients</h1>
         <h1 className="border-b-2  border-megamind_red w-12"></h1>
       </div>
       <h1 className="font-Red_Hat_Display text-4xl dark:text-megamind_white font-extrabold text-center mt-6">

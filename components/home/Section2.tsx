@@ -12,8 +12,8 @@ function Section2() {
       </div>
       <div className="h-96  pl-10 ">
         <div className="flex items-center mt-24">
-          <h1 className="border-b-2  border-megamind_red w-12"></h1>
-          <h1 className="ml-3  text-2xl text-megamind_red">
+          <h1 className="border-b-2  border-megamind_red w-8"></h1>
+          <h1 className="ml-3  text-xl text-megamind_red">
             Over 20+ Clients
           </h1>
         </div>

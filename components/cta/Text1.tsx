@@ -9,8 +9,8 @@ function Text1() {
         className=" leading-[100px] text-start font-Red_Hat_Display font-extrabold text-megamind_black"
       >
         <div className="flex items-center mb-4">
-          <h1 className="border-b-2  border-megamind_red w-12"></h1>
-          <h1 className="ml-3 leading-normal text-2xl text-megamind_red">
+          <h1 className="border-b-2  border-megamind_red w-8"></h1>
+          <h1 className="ml-3 leading-normal text-xl text-megamind_red">
             Modern Digital Solutions
           </h1>
         </div>
