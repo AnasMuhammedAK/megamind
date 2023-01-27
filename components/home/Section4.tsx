@@ -56,29 +56,29 @@ function Section4() {
               width={50}
               height={50}
             />
-            <Image
-              className="z-1  animate-my-bounce-2"
+            {/* <Image
+              className="z-1  animate-my-bounce-2 max-w-[300px] sm:max-w-full"
               src="/images/section4/1.jpg"
               alt=""
               width={400}
               height={400}
-            />
+            /> */}
           </div>
           <div className="flex items-center justify-center mt-[-50px]">
             <Image
-              className="z-2   animate-my-bounce-3"
+              className="z-2   animate-my-bounce-3 max-w-[300px] sm:max-w-full"
               src="/images/section4/2.jpg"
               alt=""
               width={400}
               height={400}
             />
-            <Image
+            {/* <Image
               className="lg:ml-10 hidden md:block mt-14"
               src="/images/section4/dot.png"
               alt=""
               width={50}
               height={50}
-            />
+            /> */}
           </div>
         </div>
       </div>

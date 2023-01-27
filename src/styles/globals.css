@@ -196,7 +196,7 @@ body{
 margin-bottom: 100px;
 } */
 
-
+/* 
 .swiper-container {
   width: 480px !important;
 }
@@ -211,7 +211,7 @@ margin-bottom: 100px;
   .swiper-container {
     width: 768px !important;
   }
-}
+} */
 
 @media screen and (min-width: 1024px) {
   .swiper-container {

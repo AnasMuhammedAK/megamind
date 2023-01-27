@@ -69,7 +69,7 @@ function Text1() {
         }
 
         span {
-          font-size: calc(2.5em);
+          font-size: calc(2.4em);
           padding: 0 calc(0rem);
           position: relative;
           opacity: 0;
