@@ -6,14 +6,14 @@ function Section5() {
     initAOS();
   }, []);
   return (
-    <div className=" py-16 dark:bg-megamind_black lg:mt-[-80px]">
+    <div className=" py-16 dark:bg-megamind_black lg:mt-[-80px] ">
       <div
         data-aos="zoom-in-up"
-        className=" hidden lg:block text-9xl 2xl:text-[160px] dark:text-megamind_white/5 text-center font-extrabold text-gray-200 z-[-10] px-4"
+        className=" hidden lg:block text-9xl 2xl:text-[160px] dark:text-megamind_white/5 text-center font-extrabold text-gray-200 z-[-10] px-4 "
       >
         Company Statistics
       </div>
-      <div className=" w-full 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64 ">
+      <div className=" w-full 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64 max-w-[200px] sm:max-w-full">
         {/* <div className="grid grid-cols-1 sm:col-span-2 lg:grid-cols-4 md:gap-10 ">
           <div data-aos="fade-up-right" className=" sm:px-8 py-6">
             <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center ">
@@ -51,7 +51,7 @@ function Section5() {
         <>
           {/* Card is full width. Use in 12 col grid for best view. */}
           {/* Card code block start */}
-          <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 max-w-[200px] sm:max-w-full">
+          <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
             <div className=" sm:px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
