@@ -20,9 +20,9 @@ function Section4() {
             Best Digital Solutions Agency For Business
           </h1>
           <div className=" mt-8 ">
-            <div data-aos="fade-down-right" className="flex items-center group sm:max-w-[360px] max-w-[250px]">
-              <TbDeviceDesktopAnalytics className="mr-6 h-12 w-12 hidden sm:block  dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
-              <div className="">
+            <div data-aos="fade-down-right" className="grid grid-cols-4  group sm:max-w-[460px] max-w-[260px]">
+              <TbDeviceDesktopAnalytics className="mr-6 h-12 w-12 mt-6   dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
+              <div className="col-span-3">
                 <h1 data-aos="zoom-in-up" className="text-2xl dark:text-megamind_red mb-2 font-Red_Hat_Display">
                   Digital Analysis
                 </h1>
@@ -32,9 +32,9 @@ function Section4() {
                 </p>
               </div>
             </div>
-            <div data-aos="fade-up-left" className="flex items-center group mt-6 sm:max-w-[360px] max-w-[250px]">
-              <FaAngular className="mr-6 h-12 w-12 hidden sm:block   dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
-              <div className="">
+            <div data-aos="fade-up-left" className="grid grid-cols-4 group mt-6 group sm:max-w-[460px] max-w-[260px]">
+              <FaAngular className="mr-6 h-12 w-12  mt-6  dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
+              <div className="col-span-3">
                 <h1 data-aos="zoom-in-up" className="text-2xl dark:text-megamind_red mb-2 font-Red_Hat_Display">
                   Web Development
                 </h1>
