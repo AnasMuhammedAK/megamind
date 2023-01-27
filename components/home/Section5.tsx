@@ -52,7 +52,7 @@ function Section5() {
           {/* Card is full width. Use in 12 col grid for best view. */}
           {/* Card code block start */}
           <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
-            <div className=" sm:px-8 py-6 flex items-center">
+            <div className=" sm:px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
                   35k
@@ -66,61 +66,61 @@ function Section5() {
                   data-aos="fade-left"
                   className="text-center dark:text-white md:text-lg text-sm mt-2"
                 >
-                  Successfully Project Done
+                  Project Done
                 </p>
               </div>
             </div>
-            <div className=" sm:px-8 py-6 flex items-center">
+            <div className=" sm:px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
-                  35k
+                  463
                 </p>
               </div>
               <div className="ml-6">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
-                  35k
+                  463
                 </p>
                 <p
                   data-aos="fade-left"
                   className="text-center dark:text-white md:text-lg text-sm mt-2"
                 >
-                  Successfully Project Done
+                  Global Clients
                 </p>
               </div>
             </div>
-            <div className=" sm:px-8 py-6 flex items-center">
+            <div className=" sm:px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
-                  35k
+                  25M
                 </p>
               </div>
               <div className="ml-6">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
-                  35k
+                  24M
                 </p>
                 <p
                   data-aos="fade-left"
                   className="text-center dark:text-white md:text-lg text-sm mt-2"
                 >
-                  Successfully Project Done
+                  3,280 Rating
                 </p>
               </div>
             </div>
-            <div className=" sm:px-8 py-6 flex items-center">
+            <div className=" sm:px-8 py-6 flex  ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
-                  35k
+                  358
                 </p>
               </div>
               <div className="ml-6">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
-                  35k
+                  358
                 </p>
                 <p
                   data-aos="fade-left"
                   className="text-center dark:text-white md:text-lg text-sm mt-2"
                 >
-                  Successfully Project Done
+                  Yearly Awards
                 </p>
               </div>
             </div>
