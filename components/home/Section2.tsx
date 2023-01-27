@@ -10,7 +10,7 @@ function Section2() {
   }, []);
   return (
     <div className=" min-h-[500px] bg-megamind_black/90 2xl:px-80 px-4 md:px-10 lg:px-20 xl:px-64 py-4 md:pt-32 relative pb-16   sm:pl-10 pt-16">
-      <Image
+      <Image 
         className="absolute xl:left-36 left-[-10px] top-10 animate-my-bounce md:block hidden"
         src="/images/section2/circle.png"
         alt=""
