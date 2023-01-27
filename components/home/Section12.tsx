@@ -83,10 +83,12 @@ function Section12() {
                 key={index}
               >
                 <div className=" h-40 w-60 flex items-center justify-center">
-                  <img
+                  <Image
                     src={logo}
                     alt="logo"
                     className="object-fit h-[42px] w-[170px] mr-10"
+                    width={100}
+                    height={100}
                   />
                 </div>
               </SwiperSlide>

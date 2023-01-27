@@ -19,7 +19,7 @@ function Text1() {
           </h1>
         </div>
         <span>W</span>
-        <span>e'</span>
+        <span>e&apos;</span>
         <span>r</span>
         <span>e</span>
         <span> D</span>
@@ -47,11 +47,14 @@ function Text1() {
         <span id="dot" className="text-megamind_red">
           .
         </span>
-        <div data-aos="fade-right"  className="flex items-center leading-normal text-lg mb-[-30px] mt-[30px]">
-          <button  className=" py-3 animationbutton rounded text-white flex items-center justify-center">
+        <div
+          data-aos="fade-right"
+          className="flex items-center leading-normal text-lg mb-[-30px] mt-[30px]"
+        >
+          <button className=" py-3 animationbutton rounded text-white flex items-center justify-center">
             Get Free Consulting <BsArrowRight className="text-xl ml-3 mt-1" />
           </button>
-          <button   className="ml-10 hover:text-megamind_red flex items-center justify-center">
+          <button className="ml-10 hover:text-megamind_red flex items-center justify-center">
             Our Services
             <BsArrowRight className="text-xl ml-3 mt-1" />
           </button>
