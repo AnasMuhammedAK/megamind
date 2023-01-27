@@ -9,7 +9,7 @@ function Section2() {
     initAOS();
   }, []);
   return (
-    <div className=" min-h-[500px] bg-megamind_black/90 2xl:px-80 px-4 md:px-10 lg:px-20 xl:px-64 py-4 md:pt-32 relative pb-16  pl-10 pt-16">
+    <div className=" min-h-[500px] bg-megamind_black/90 2xl:px-80 px-4 md:px-10 lg:px-20 xl:px-64 py-4 md:pt-32 relative pb-16   sm:pl-10 pt-16">
       <Image
         className="absolute xl:left-36 left-[-10px] top-10 animate-my-bounce md:block hidden"
         src="/images/section2/circle.png"
@@ -18,10 +18,11 @@ function Section2() {
         height={300}
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10">
-        <div className=" max-w-[260px] sm:max-w-full flex items-center justify-center h-full relative ">
+        <div className="px-10 flex items-center justify-center h-full relative ">
           <Image
+            object-fit="cover"
             data-aos="fade-left"
-            className="rounded-tr-[50px] md:rounded-tr-[80px] max-w-[260px] sm:max-w-full  xl:absolute bottom-[-150px] flex items-center justify-center"
+            className="sm:rounded-tr-[50px] md:rounded-tr-[80px]  xl:absolute bottom-[-150px] flex items-center justify-center"
             src="/images/section2/service.png"
             width={630}
             height={400}
@@ -29,7 +30,10 @@ function Section2() {
           />
         </div>
         <div className="  ">
-          <div data-aos="zoom-in-up" className="flex items-center md:mt-24 mt-10">
+          <div
+            data-aos="zoom-in-up"
+            className="flex items-center md:mt-24 mt-10"
+          >
             <h1 className="border-b-2  border-megamind_red w-8"></h1>
             <h1 className="ml-3  text-xl text-megamind_red">
               Over 20+ Clients
