@@ -47,10 +47,10 @@ function Section4() {
             </div>
           </div>
         </div>
-        <div className="relative mt-10 md:mt-0">
+        <div className="relative mt-10 md:mt-0 ">
           <div className="flex items-center ">
             <Image
-              className="lg:mr-10 hidden md:block mb-14"
+              className="lg:mr-10 hidden md:block mb-14 animate-my-bounce"
               src="/images/section4/dot.png"
               alt=""
               width={50}
@@ -64,7 +64,7 @@ function Section4() {
               height={400}
             />
           </div>
-          <div className="flex items-center justify-center mt-[-50px]">
+          <div className="flex items-center justify-center mt-[-50px] xl:pl-28 pl-10">
             <Image
               className="z-2   animate-my-bounce-3 max-w-[300px] sm:max-w-full"
               src="/images/section4/2.jpg"
@@ -73,7 +73,7 @@ function Section4() {
               height={400}
             />
             <Image
-              className="lg:ml-10 hidden md:block mt-14"
+              className="lg:ml-10 hidden md:block mt-14 animate-my-bounce"
               src="/images/section4/dot.png"
               alt=""
               width={50}
