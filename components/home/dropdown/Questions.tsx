@@ -4,6 +4,7 @@ import AccordionSummary from "@mui/material/AccordionSummary";
 import AccordionDetails from "@mui/material/AccordionDetails";
 import Typography from "@mui/material/Typography";
 import { IoIosArrowDown } from "react-icons/io";
+import { initAOS } from "@/utils/aos";
 
 function Questions() {
   const titles = [
@@ -16,12 +17,19 @@ function Questions() {
     "What is the standard size of business cards",
     "What should be listed business card",
   ];
+  React.useEffect(() => {
+    initAOS();
+  }, []);
   return (
-    <div>
+    <div >
       {titles.map((title, index) => {
         return (
           <>
-            <Accordion key={index} className="mt-2 ">
+            <Accordion
+          
+              key={index}
+              className="mt-2 "
+            >
               <AccordionSummary
                 expandIcon={
                   <IoIosArrowDown className="hover:text-[#213557] dark:text-megamind_red/90 text-megamind_black/70 text-xl" />
@@ -30,15 +38,16 @@ function Questions() {
                 id="panel1a-header"
                 className="bg-megamind_black/10 dark:bg-megamind_black/95 text-black"
               >
-                <Typography className="dark:text-white font-bold texl-xl">{title}?</Typography>
+                <Typography className="dark:text-white font-bold texl-xl">
+                  {title}?
+                </Typography>
               </AccordionSummary>
-              <AccordionDetails className="dark:bg-megamind_black/95 bg-megamind_black/10 font-Red_Hat_Display dark:text-white">
+              <AccordionDetails className="dark:bg-megamind_black/95 bg-megamind_black/10 font-Red_Hat_Display text-gray-500">
                 On the other hand we denounce with righteous indignation and
                 dislike men who are so beguiled and demoralized by the charms of
                 pleasure of the moment so blinded by desire
               </AccordionDetails>
             </Accordion>
-            
           </>
         );
       })}

@@ -1,14 +1,18 @@
-import React from "react";
+import { initAOS } from "@/utils/aos";
+import React, { useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 
 function Text1() {
+  useEffect(() => {
+    initAOS();
+  }, []);
   return (
     <div>
       <div
         id="text"
         className=" leading-[100px] text-start font-Red_Hat_Display font-extrabold text-megamind_black"
       >
-        <div className="flex items-center mb-4">
+        <div data-aos="zoom-in-up" className="flex items-center mb-4">
           <h1 className="border-b-2  border-megamind_red w-8"></h1>
           <h1 className="ml-3 leading-normal text-xl text-megamind_red">
             Modern Digital Solutions
@@ -43,11 +47,11 @@ function Text1() {
         <span id="dot" className="text-megamind_red">
           .
         </span>
-        <div className="flex items-center leading-normal text-lg mb-[-30px] mt-[30px]">
-          <button className=" py-3 animationbutton rounded text-white flex items-center justify-center">
+        <div data-aos="fade-right"  className="flex items-center leading-normal text-lg mb-[-30px] mt-[30px]">
+          <button  className=" py-3 animationbutton rounded text-white flex items-center justify-center">
             Get Free Consulting <BsArrowRight className="text-xl ml-3 mt-1" />
           </button>
-          <button className="ml-10 hover:text-megamind_red flex items-center justify-center">
+          <button   className="ml-10 hover:text-megamind_red flex items-center justify-center">
             Our Services
             <BsArrowRight className="text-xl ml-3 mt-1" />
           </button>

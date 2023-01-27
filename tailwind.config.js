@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 const colors = require("tailwindcss/colors");
 module.exports = {
+  important: true,
   darkMode: "class",
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
@@ -9,6 +10,13 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1600px',
+        '4xl': '1700px',
+        '5xl': '1800px',
+        '6xl': '1900px',
+        '7xl': '2000px',
+      },
       animation: {
         "my-bounce": "bounceing 3s linear infinite alternate-reverse",
         "my-bounce-2": "bounceing2 3s linear infinite alternate",
@@ -27,6 +35,7 @@ module.exports = {
       fontFamily: {
         Red_Hat_Display: ["Red Hat Display", "sans-serif"],
         Lexend: ["Lexend", "sans-serif"],
+        Jost: ["Jost", "sans-serif"],
       },
     },
   },
