@@ -13,7 +13,7 @@ function Section5() {
       >
         Company Statistics
       </div>
-      <div className=" w-full 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64 max-w-[200px] sm:max-w-full">
+      <div className=" w-full 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64">
         {/* <div className="grid grid-cols-1 sm:col-span-2 lg:grid-cols-4 md:gap-10 ">
           <div data-aos="fade-up-right" className=" sm:px-8 py-6">
             <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center ">
