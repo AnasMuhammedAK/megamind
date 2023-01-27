@@ -19,7 +19,7 @@ function Section4() {
           <h1 data-aos="zoom-in-up" className="font-Red_Hat_Display text-4xl dark:text-megamind_white font-extrabold max-w-[400px]  mt-6">
             Best Digital Solutions Agency For Business
           </h1>
-          <div className="ml-6 mt-8">
+          <div className="pl-6 mt-8">
             <div data-aos="fade-down-right" className="flex items-center group">
               <TbDeviceDesktopAnalytics className="mr-6 h-12 w-12   dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
               <div className="max-w-[360px]">
@@ -56,13 +56,13 @@ function Section4() {
               width={50}
               height={50}
             />
-            {/* <Image
+            <Image
               className="z-1  animate-my-bounce-2 max-w-[300px] sm:max-w-full"
               src="/images/section4/1.jpg"
               alt=""
               width={400}
               height={400}
-            /> */}
+            />
           </div>
           <div className="flex items-center justify-center mt-[-50px]">
             <Image
@@ -72,13 +72,13 @@ function Section4() {
               width={400}
               height={400}
             />
-            {/* <Image
+            <Image
               className="lg:ml-10 hidden md:block mt-14"
               src="/images/section4/dot.png"
               alt=""
               width={50}
               height={50}
-            /> */}
+            />
           </div>
         </div>
       </div>
