@@ -1,4 +1,3 @@
-import MainFooter from "components/Footer/MainFooter";
 import Section3Card from "components/home/cards/Section3Card";
 import Section10 from "components/home/Section10";
 import Section11 from "components/home/Section11";
@@ -12,8 +11,6 @@ import Section7 from "components/home/Section7";
 import Section8 from "components/home/Section8";
 import Section9 from "components/home/Section9";
 import Head from "next/head";
-import {Link} from 'react-scroll'
-import { SlArrowUp } from "react-icons/sl";
 import CTA from "../../components/cta/CTA";
 
 export default function Home() {
@@ -36,12 +33,6 @@ export default function Home() {
       <Section10 /> */}
       {/* <Section11 />
       <Section12 /> */}
-      <footer className="shadow-inner relative">
-        <MainFooter/>
-        <Link to="target" spy={true} smooth={true} duration={500}>
-          <SlArrowUp className="text-megamind_white dark:text-megamind_black hover:bg-megamind_red dark:hover:bg-megamind_red hover:text-megamind_black fixed bottom-16 right-4 w-12 cursor-pointer h-12 rounded p-3 bg-megamind_black dark:bg-megamind_white" />
-        </Link>
-      </footer>
     </>
   );
 }
