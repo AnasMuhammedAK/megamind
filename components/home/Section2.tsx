@@ -18,7 +18,7 @@ function Section2() {
         height={300}
       />
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-10">
-        <div className="px-10 flex items-center justify-center h-full relative ">
+        <div className=" max-w-[260px] sm:max-w-full flex items-center justify-center h-full relative ">
           <Image
             object-fit="cover"
             data-aos="fade-left"
