@@ -16,29 +16,29 @@ function Section4() {
             <h1 className="border-b-2  border-megamind_red w-8"></h1>
             <h1 className="ml-3  text-xl text-megamind_red">About Company</h1>
           </div>
-          <h1 data-aos="zoom-in-up" className="font-Red_Hat_Display text-4xl dark:text-megamind_white font-extrabold max-w-[400px]  mt-6">
+          <h1 data-aos="zoom-in-up" className="font-Red_Hat_Display text-4xl dark:text-megamind_white font-extrabold md:max-w-[400px]  mt-6">
             Best Digital Solutions Agency For Business
           </h1>
-          <div className="pl-6 mt-8">
-            <div data-aos="fade-down-right" className="flex items-center group">
+          <div className=" mt-8 ">
+            <div data-aos="fade-down-right" className="flex items-center group sm:max-w-[360px] max-w-[260px]">
               <TbDeviceDesktopAnalytics className="mr-6 h-12 w-12   dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
-              <div className="max-w-[360px]">
+              <div className="">
                 <h1 data-aos="zoom-in-up" className="text-2xl dark:text-megamind_red mb-2 font-Red_Hat_Display">
                   Digital Analysis
                 </h1>
-                <p data-aos="zoom-in-up" className="text-gray-500 leading-7">
+                <p data-aos="zoom-in-up" className="text-gray-500 md:leading-7">
                   Sit amet consectetur adipiscing doeiusmod tempor incididunt ut
                   labore et dolore magna aliqua uissum suspendisse ultrices.
                 </p>
               </div>
             </div>
-            <div data-aos="fade-up-left" className="flex items-center group mt-6">
+            <div data-aos="fade-up-left" className="flex items-center group mt-6 sm:max-w-[360px] max-w-[260px]">
               <FaAngular className="mr-6 h-12 w-12   dark:text-megamind_white group-hover:text-megamind_red group-hover:animate-bounce" />
-              <div className="max-w-[360px]">
+              <div className="">
                 <h1 data-aos="zoom-in-up" className="text-2xl dark:text-megamind_red mb-2 font-Red_Hat_Display">
                   Web Development
                 </h1>
-                <p data-aos="zoom-in-up" className="text-gray-500 leading-7">
+                <p data-aos="zoom-in-up" className="text-gray-500 md:leading-7">
                   Web Development Quis autem vel eum reprehender voluptate velit
                   esse quam nihile molestiae consequatur veillum dolorem eum
                   fugiat voluptas.
@@ -64,7 +64,7 @@ function Section4() {
               height={400}
             />
           </div>
-          <div className="flex items-center justify-center mt-[-50px] xl:pl-28 pl-10">
+          <div className="flex items-center justify-center mt-[-50px] xl:pl-28 ">
             <Image
               className="z-2   animate-my-bounce-3 max-w-[300px] sm:max-w-full"
               src="/images/section4/2.jpg"
