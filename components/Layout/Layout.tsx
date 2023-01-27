@@ -18,16 +18,16 @@ function Layout({ children }: any) {
           openSidebar={openSidebar}
         />
       </header>
-      <main className="flex ">
+      <main  className="flex ">
         <Sidebar openSidebar={openSidebar} sidebar={sidebar} />
-        <div className="flex-grow mt-24">{children}</div>
+        <div className="flex-grow mt-24" >{children}</div>
       </main>
-      <footer className="shadow-inner relative">
+      {/* <footer className="shadow-inner relative">
         <MainFooter isDark={isDark} />
         <Link to="target" spy={true} smooth={true}  duration={500}>
           <SlArrowUp className="text-megamind_white dark:text-megamind_black hover:bg-megamind_red dark:hover:bg-megamind_red hover:text-megamind_black fixed bottom-16 right-4 w-12 cursor-pointer h-12 rounded p-3 bg-megamind_black dark:bg-megamind_white" />
         </Link>
-      </footer>
+      </footer> */}
     </div>
   );
 }
