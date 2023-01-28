@@ -34,7 +34,6 @@ function Section12() {
   ];
   return (
     <>
-      {" "}
       <div className="bg-megamind_black/10  dark:bg-megamind_black/95">
         <div>
           <Swiper

@@ -9,14 +9,14 @@ function Section5() {
     <div className=" py-16 dark:bg-megamind_black lg:mt-[-80px] ">
       <div
         data-aos="zoom-in-up"
-        className=" hidden lg:block text-9xl 2xl:text-[160px] dark:text-megamind_white/5 text-center font-extrabold text-gray-200 z-[-10] px-4 "
+        className=" hidden xl:block text-8xl 2xl:text-[160px] dark:text-megamind_white/5 text-center font-extrabold text-gray-200 z-[-10] px-4 "
       >
         Company Statistics
       </div>
       <div className=" w-full 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64">
         {/* <div className="grid grid-cols-1 sm:col-span-2 lg:grid-cols-4 md:gap-10 ">
           <div data-aos="fade-up-right" className=" sm:px-8 py-6">
-            <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center ">
+            <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center ">
               35k
             </p>
             <p data-aos="fade-left" className="text-center dark:text-white md:text-lg text-sm mt-2">
@@ -24,7 +24,7 @@ function Section5() {
             </p>
           </div>
           <div data-aos="fade-up-right" className="sm:px-8 py-6 ">
-            <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl  font-bold text-center">
+            <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl  font-bold text-center">
               463
             </p>
             <p data-aos="fade-left" className="text-center dark:text-white md:text-lg text-sm mt-2">
@@ -32,7 +32,7 @@ function Section5() {
             </p>
           </div>
           <div data-aos="fade-up-left" className="sm:px-8 py-6 ">
-            <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl  font-bold text-center">
+            <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl  font-bold text-center">
               25m
             </p>
             <p data-aos="fade-right" className="text-center dark:text-white md:text-lg text-sm mt-2">
@@ -40,7 +40,7 @@ function Section5() {
             </p>
           </div>
           <div data-aos="fade-up-left" className=" sm:px-8 py-6">
-            <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl  font-bold text-center">
+            <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl  font-bold text-center">
               358+
             </p>
             <p data-aos="fade-right" className="text-center dark:text-white md:text-lg text-sm mt-2">
@@ -54,12 +54,12 @@ function Section5() {
           <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
             <div className=" px-8 py-6 flex ">
               <div className="">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center sm:hidden">
                   35k
                 </p>
               </div>
               <div className="ml-6">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center hidden sm:block">
                   35k
                 </p>
                 <p
@@ -72,12 +72,12 @@ function Section5() {
             </div>
             <div className=" px-8 py-6 flex ">
               <div className="">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center sm:hidden">
                   463
                 </p>
               </div>
               <div className="ml-6">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center hidden sm:block">
                   463
                 </p>
                 <p
@@ -90,12 +90,12 @@ function Section5() {
             </div>
             <div className=" px-8 py-6 flex ">
               <div className="">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center sm:hidden">
                   25M
                 </p>
               </div>
               <div className="ml-6">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center hidden sm:block">
                   24M
                 </p>
                 <p
@@ -108,12 +108,12 @@ function Section5() {
             </div>
             <div className=" px-8 py-6 flex  ">
               <div className="">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center sm:hidden">
                   358
                 </p>
               </div>
               <div className="ml-6">
-                <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center hidden sm:block">
+                <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center hidden sm:block">
                   358
                 </p>
                 <p
