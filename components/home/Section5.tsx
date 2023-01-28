@@ -51,8 +51,8 @@ function Section5() {
         <>
           {/* Card is full width. Use in 12 col grid for best view. */}
           {/* Card code block start */}
-          <div className="w-full grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
-            <div className=" sm:px-8 py-6 flex ">
+          <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
+            <div className=" px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
                   35k
@@ -70,7 +70,7 @@ function Section5() {
                 </p>
               </div>
             </div>
-            <div className=" sm:px-8 py-6 flex ">
+            <div className=" px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
                   463
@@ -88,7 +88,7 @@ function Section5() {
                 </p>
               </div>
             </div>
-            <div className=" sm:px-8 py-6 flex ">
+            <div className=" px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
                   25M
@@ -106,7 +106,7 @@ function Section5() {
                 </p>
               </div>
             </div>
-            <div className=" sm:px-8 py-6 flex  ">
+            <div className=" px-8 py-6 flex  ">
               <div className="">
                 <p className="text-megamind_red md:text-7xl xl:text-8xl text-3xl font-bold text-center sm:hidden">
                   358
