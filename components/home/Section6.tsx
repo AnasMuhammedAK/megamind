@@ -1,80 +1,92 @@
 import React from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper";
-import "swiper/css";
-import "swiper/css/pagination";
 
 function Section6() {
-  return (
-    <div className="bg-megamind_black/10  dark:bg-megamind_black/95">
-      <div>
-        <Swiper
-          breakpoints={{
-            640: {
-              width: 640,
-              slidesPerView: 3,
-            },
-            768: {
-              width: 768,
-              slidesPerView: 4,
-            },
-            1280: {
-              width: 1280,
-              slidesPerView: 5,
-            },
-            1536: {
-              width: 1536,
-              slidesPerView: 6,
-            },
-            1700: {
-              width: 100,
-              slidesPerView: 7,
-            },
-            1900: {
-              width: 1900,
-              slidesPerView: 8,
-            },
-            2000: {
-              width: 2000,
-              slidesPerView: 8,
-            },
-          }}
-          className="mySwiper max-w-[360px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1700px] 6xl:max-w-[1900px] 7xl:max-w-[2000px]"
-          spaceBetween={1}
-          slidesPerView={2}
-          autoplay={{
-            delay: 1500,
-            disableOnInteraction: false,
-          }}
-          modules={[Autoplay, Pagination]}
-        >
-          <SwiperSlide className="flex items-center justify-center">
-            <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
-              hello
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="flex items-center justify-center">
-            <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
-              hello
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="flex items-center justify-center">
-            <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
-              hello
-            </div>
-          </SwiperSlide>
-          <SwiperSlide className="flex items-center justify-center">
-            <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
-              hello
-            </div>
-          </SwiperSlide>
-        </Swiper>
-      </div>
-    </div>
-  );
+  return <div>Section6</div>;
 }
 
 export default Section6;
+
+// import React from "react";
+// import { Swiper, SwiperSlide } from "swiper/react";
+// import { Autoplay, Pagination } from "swiper";
+// import "swiper/css";
+// import "swiper/css/pagination";
+
+// function Section6() {
+//   return (
+//     <div className="bg-megamind_black/10  dark:bg-megamind_black/95">
+//       <div>
+//         <Swiper
+//           breakpoints={{
+//             640: {
+//               width: 640,
+//               slidesPerView: 3,
+//             },
+//             768: {
+//               width: 768,
+//               slidesPerView: 4,
+//             },
+//             1280: {
+//               width: 1280,
+//               slidesPerView: 5,
+//             },
+//             1536: {
+//               width: 1536,
+//               slidesPerView: 6,
+//             },
+//             1700: {
+//               width: 100,
+//               slidesPerView: 7,
+//             },
+//             1900: {
+//               width: 1900,
+//               slidesPerView: 8,
+//             },
+//             2000: {
+//               width: 2000,
+//               slidesPerView: 8,
+//             },
+//           }}
+//           className="mySwiper max-w-[360px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1700px] 6xl:max-w-[1900px] 7xl:max-w-[2000px]"
+//           spaceBetween={1}
+//           slidesPerView={2}
+//           autoplay={{
+//             delay: 1500,
+//             disableOnInteraction: false,
+//           }}
+//           modules={[Autoplay, Pagination]}
+//         >
+//           <SwiperSlide className="flex items-center justify-center">
+//             <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
+//               hello
+//             </div>
+//           </SwiperSlide>
+//           <SwiperSlide className="flex items-center justify-center">
+//             <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
+//               hello
+//             </div>
+//           </SwiperSlide>
+//           <SwiperSlide className="flex items-center justify-center">
+//             <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
+//               hello
+//             </div>
+//           </SwiperSlide>
+//           <SwiperSlide className="flex items-center justify-center">
+//             <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
+//               hello
+//             </div>
+//           </SwiperSlide>
+//         </Swiper>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+// export default Section6;
 // import { initAOS } from "@/utils/aos";
 // import Link from "next/link";
 // import React, { useEffect } from "react";
