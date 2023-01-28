@@ -30,7 +30,7 @@ function Section7() {
     },
   ];
   const [open, setOpen] = useState(false);
-  const togle = (index) => {
+  const togle = (index:number) => {
     if (open === index) {
       return setOpen(null);
     }
