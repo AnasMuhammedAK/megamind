@@ -4,7 +4,7 @@ function Section6() {
   return <div>Section6</div>;
 }
 
-export default Section6;
+export default Section6;  
 
 // import React from "react";
 // import { Swiper, SwiperSlide } from "swiper/react";
