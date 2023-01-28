@@ -48,7 +48,7 @@ function Section11() {
               slidesPerView: 3,
             },
           }}
-          className="mySwiper w-[360px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] "
+          className="mySwiper max-w-[360px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] "
           spaceBetween={30}
           autoplay={{
             delay: 3000,
