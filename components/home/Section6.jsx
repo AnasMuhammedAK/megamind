@@ -2,7 +2,7 @@
 import { initAOS } from "@/utils/aos";
 import Link from "next/link";
 import React, { useEffect } from "react";
-import Carousel from "react-elastic-carousel";
+import Carousel from "@itseasy21/react-elastic-carousel";
 
 function Section6() {
   const breakPoints = [
