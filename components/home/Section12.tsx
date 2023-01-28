@@ -68,7 +68,7 @@ function Section12() {
                 slidesPerView: 8,
               },
             }}
-            className="mySwiper max-w-[480px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1700px] 6xl:max-w-[1900px] 7xl:max-w-[2000px]"
+            className="mySwiper max-w-[360px] sm:max-w-[640px] md:max-w-[768px] lg:max-w-[1024px] xl:max-w-[1280px] 2xl:max-w-[1536px] 4xl:max-w-[1700px] 6xl:max-w-[1900px] 7xl:max-w-[2000px]"
             spaceBetween={1}
             slidesPerView={2}
             autoplay={{
@@ -82,11 +82,11 @@ function Section12() {
                 className="flex items-center justify-center"
                 key={index}
               >
-                <div className=" h-40 w-60 flex items-center justify-center">
+                <div className="  sm:w-60 flex items-center justify-center mb-[-100px] sm:py-10">
                   <Image
                     src={logo}
                     alt="logo"
-                    className="object-fit h-[42px] w-[170px] mr-10"
+                    className="object-fit sm:h-[42px] sm:w-[170px] mr-10 "
                     width={100}
                     height={100}
                   />

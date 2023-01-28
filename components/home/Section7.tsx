@@ -30,21 +30,21 @@ function Section7() {
             who are beguiled and demoralized by the charms pleasure moment, so
             blinded by desire that they cannot foresee
           </p>
-          <div className="grid grid-cols-1 max-w-[210px] pl-10 sm:hidden">
-            <div className="my-10 ">
+          <div className="grid grid-cols-1   sm:hidden">
+            <div className="my-10 flex items-center ">
               <CircularProgress value={69} />
               <h1
                 data-aos="fade-right"
-                className="text-lg  font-semibold mt-4  dark:text-megamind_white"
+                className="text-lg  font-semibold mt-4  dark:text-megamind_white pl-2 mb-4"
               >
                 Digital Analysis
               </h1>
             </div>
-            <div>
+            <div className="flex items-center">
               <CircularProgress value={82} />
               <h1
                 data-aos="fade-left"
-                className="text-lg  font-semibold mt-4  dark:text-megamind_white"
+                className="text-lg  font-semibold mt-4  dark:text-megamind_white pl-2 mb-4"
               >
                 Web Development
               </h1>
