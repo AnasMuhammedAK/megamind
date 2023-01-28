@@ -7,12 +7,6 @@ import Image from "next/image";
 
 function Section12() {
   const logos = [
-    "/images/clients/Client1.png",
-    "/images/clients/Client2.png",
-    "/images/clients/Client3.png",
-    "/images/clients/Client4.png",
-    "/images/clients/Client5.png",
-    "/images/clients/Client6.png",
     "/images/clients/Client7.png",
     "/images/clients/Client8.png",
     "/images/clients/Client9.png",
@@ -31,6 +25,12 @@ function Section12() {
     "/images/clients/Client22.png",
     "/images/clients/Client23.png",
     "/images/clients/Client24.png",
+    "/images/clients/Client1.png",
+    "/images/clients/Client2.png",
+    "/images/clients/Client3.png",
+    "/images/clients/Client4.png",
+    "/images/clients/Client5.png",
+    "/images/clients/Client6.png",
   ];
   return (
     <>
@@ -85,7 +85,7 @@ function Section12() {
                   <Image
                     src={logo}
                     alt="logo"
-                    className="object-fit sm:h-[42px] sm:w-[170px] mr-10 "
+                    className="object-fit sm:h-[42px] sm:max-w-[170px] mr-10 "
                     width={100}
                     height={100}
                   />

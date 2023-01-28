@@ -7,7 +7,7 @@ function Section3() {
     initAOS();
   }, []);
   return (
-    <div className=" dark:bg-megamind_black w-full min-h-[520px]  px-4 md:px-10 lg:px-20 2xl:px-36 7xl:px-64 py-16">
+    <div className=" dark:bg-megamind_black w-full min-h-[520px]  px-4 md:px-10 lg:px-20 2xl:px-40 4xl:px-48 6xl:px-64 7xl:px-80 py-16">
       <div data-aos="zoom-in-up" className="flex items-center xl:mt-16 w-full justify-center">
         <h1 className="border-b-2  border-megamind_red w-12"></h1>
         <h1 className="mx-4  text-xl text-megamind_red">Over 20+ Clients</h1>

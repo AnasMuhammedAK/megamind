@@ -29,10 +29,10 @@ function Section7() {
         " On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment so blinded by desire",
     },
   ];
-  const [open, setOpen] = useState(false);
+  const [open, setOpen] = useState(10000);
   const togle = (index:number) => {
     if (open === index) {
-      return setOpen(null);
+      return setOpen(10000);
     }
     setOpen(index);
   };
