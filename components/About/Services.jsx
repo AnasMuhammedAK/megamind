@@ -1,10 +1,9 @@
-
 import { initAOS } from "@/utils/aos";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import Carousel from "@itseasy21/react-elastic-carousel";
 
-function Section6({ bg }) {
+function Services() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
     { width: 430, itemsToShow: 1 },
@@ -16,7 +15,10 @@ function Section6({ bg }) {
     initAOS();
   }, []);
   return (
-    <div data-aos="zoom-in-up" className={`px-4 py-16  ${bg ? "bg-megamind_black/10 dark:bg-megamind_black/90" : "dark:bg-megamind_black"}`}>
+    <div
+      data-aos="zoom-in-up"
+      className={`px-4 py-1`}
+    >
       <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000}>
         <section>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
@@ -150,4 +152,4 @@ function Section6({ bg }) {
   );
 }
 
-export default Section6;
+export default Services;

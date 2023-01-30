@@ -1,7 +1,6 @@
 import { initAOS } from "@/utils/aos";
 import React, { useEffect, useState } from "react";
 import CircularProgress from "./cards/CircularProgress";
-import Questions from "./dropdown/Questions";
 import Questions2 from "./dropdown/Questions2";
 function Section7() {
   useEffect(() => {

@@ -14,44 +14,57 @@ function Section5() {
         Company Statistics
       </div>
       <div className=" w-full 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64">
-        {/* <div className="grid grid-cols-1 sm:col-span-2 lg:grid-cols-4 md:gap-10 ">
-          <div data-aos="fade-up-right" className=" sm:px-8 py-6">
+  
+        <div className="grid grid-cols-2 lg:grid-cols-4 md:gap-10 ">
+          <div data-aos="zoom-in-up" className=" sm:px-8 py-6">
             <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center ">
               35k
             </p>
-            <p data-aos="fade-left" className="text-center dark:text-white md:text-lg text-sm mt-2">
+            <p
+              data-aos="fade-right"
+              className="text-center dark:text-white md:text-lg text-sm mt-2"
+            >
               Successfully Project Done
             </p>
           </div>
-          <div data-aos="fade-up-right" className="sm:px-8 py-6 ">
+          <div data-aos="zoom-in-up" className="sm:px-8 py-6 ">
             <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl  font-bold text-center">
               463
             </p>
-            <p data-aos="fade-left" className="text-center dark:text-white md:text-lg text-sm mt-2">
+            <p
+              data-aos="fade-right"
+              className="text-center dark:text-white md:text-lg text-sm mt-2"
+            >
               Saticfied Global Clients
             </p>
           </div>
-          <div data-aos="fade-up-left" className="sm:px-8 py-6 ">
+          <div data-aos="zoom-in-up" className="sm:px-8 py-6 ">
             <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl  font-bold text-center">
               25m
             </p>
-            <p data-aos="fade-right" className="text-center dark:text-white md:text-lg text-sm mt-2">
+            <p
+              data-aos="fade-right"
+              className="text-center dark:text-white md:text-lg text-sm mt-2"
+            >
               3,280 avg Rating
             </p>
           </div>
-          <div data-aos="fade-up-left" className=" sm:px-8 py-6">
+          <div data-aos="zoom-in-up" className=" sm:px-8 py-6">
             <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl  font-bold text-center">
               358+
             </p>
-            <p data-aos="fade-right" className="text-center dark:text-white md:text-lg text-sm mt-2">
+            <p
+              data-aos="fade-right"
+              className="text-center dark:text-white md:text-lg text-sm mt-2"
+            >
               Yearly Awards Winning
             </p>
           </div>
-        </div> */}
+        </div>
         <>
           {/* Card is full width. Use in 12 col grid for best view. */}
           {/* Card code block start */}
-          <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
+          {/* <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 ">
             <div className=" px-8 py-6 flex ">
               <div className="">
                 <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center sm:hidden">
@@ -109,12 +122,12 @@ function Section5() {
             <div className=" px-8 py-6 flex  ">
               <div className="">
                 <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center sm:hidden">
-                  358
+                  358+
                 </p>
               </div>
               <div className="ml-6">
                 <p className="text-megamind_red md:text-6xl xl:text-7xl text-3xl font-bold text-center hidden sm:block">
-                  358
+                  358+
                 </p>
                 <p
                   data-aos="fade-left"
@@ -124,7 +137,7 @@ function Section5() {
                 </p>
               </div>
             </div>
-          </div>
+          </div> */}
           {/* Card code block end */}
         </>
       </div>

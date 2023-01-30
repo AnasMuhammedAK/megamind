@@ -10,7 +10,7 @@ function AboutSection1() {
   return (
     <div className="dark:bg-megamind_black w-full min-h-[520px] 2xl:px-96 px-4 md:px-10 lg:px-20 xl:px-64 pb-16 pt-28">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4 lg:gap-20 ">
-        <div className="relative">
+        <div className="relative"  data-aos="zoom-in-up">
           <Image
             src={"/images/about/section1/trusted.jpg"}
             alt=""
@@ -25,7 +25,7 @@ function AboutSection1() {
             height={500}
             className="lg:rounded-md lg:ml-20 lg:mt-[-80px] rounded-b-md"
           />
-          <div className="rounded-full h-36 w-36 bg-megamind_red flex items-center justify-center p-3 absolute z-2 bottom-36 lg:right-0 right-[30%] hover:translate-x-[-30px] hover:translate-y-[-30px] transition-all duration-1000">
+          <div  className="rounded-full h-36 w-36 bg-megamind_red flex items-center justify-center p-3 absolute z-2 bottom-36 lg:right-0 right-[30%] hover:translate-x-[-30px] hover:translate-y-[-30px] transition-all duration-1000">
             <div className="text-megamind_white w-full h-full border rounded-full text-sm flex items-center text-center border-dashed">
               25+ Years Experience
             </div>
@@ -44,7 +44,7 @@ function AboutSection1() {
           >
             WE ARE
             <span className="text-megamind_red font-semibold px-2">
-              TRUSTED
+               TRUSTED 
             </span>
             BY FIRST & BEST IN THE WORLD.
           </h1>
