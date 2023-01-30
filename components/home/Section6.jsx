@@ -7,9 +7,10 @@ import Carousel from "@itseasy21/react-elastic-carousel";
 function Section6() {
   const breakPoints = [
     { width: 1, itemsToShow: 1 },
-    { width: 550, itemsToShow: 2 },
-    { width: 768, itemsToShow: 3 },
-    { width: 1200, itemsToShow: 4 },
+    { width: 430, itemsToShow: 1 },
+    { width: 860, itemsToShow: 2 },
+    { width: 1290, itemsToShow: 3 },
+    { width: 1720, itemsToShow: 4 },
   ];
   useEffect(() => {
     initAOS();

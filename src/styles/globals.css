@@ -246,3 +246,10 @@ margin-bottom: 100px;
 .ReactCollapse--collapse {
   transition: height 500ms;
 }
+.css-eglki6-MuiLinearProgress-root{
+    height: 4px !important;
+    background-color: gray !important;
+}
+.css-5xe99f-MuiLinearProgress-bar1 {
+  background-color: #000000 !important;
+}

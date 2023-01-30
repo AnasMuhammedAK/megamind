@@ -49,7 +49,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 <li>
                   <Link
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
-                    href="/"
+                    href="/about"
                   >
                     About
                   </Link>
@@ -58,7 +58,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 <li>
                   <Link
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
-                    href="/"
+                    href="/services"
                   >
                     Services
                   </Link>
@@ -67,7 +67,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 <li>
                   <Link
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
-                    href="/"
+                    href="/projects"
                   >
                     Projects
                   </Link>
@@ -76,7 +76,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 <li>
                   <Link
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
-                    href="/"
+                    href="/blog"
                   >
                     Blog
                   </Link>
@@ -84,7 +84,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 <li>
                   <Link
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
-                    href="/"
+                    href="/careers"
                   >
                     Careers
                   </Link>
