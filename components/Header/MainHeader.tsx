@@ -86,7 +86,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
                     href="/careers"
                   >
-                    Careers
+                    Contact
                   </Link>
                 </li>
               </ul>
