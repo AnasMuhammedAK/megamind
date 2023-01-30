@@ -176,11 +176,11 @@ body{
 }
 .cVXxbE,.hGPzOw,.goodpl {
   background-color: #E31313 !important;
-  box-shadow: 0 0 1px 3px #E31313 !important;
+  box-shadow: 0 0 1px 2px #E31313 !important;
 }
 .ezKHIn,.hrBmXS{
     background-color: #F2F2F2 !important;
-    box-shadow: 0 0 1px 2px #E31313 !important;
+    box-shadow: 0 0 1px 1px #E31313 !important;
 }
 .CircularProgressbar-path {
   stroke: #E31313 !important;
@@ -227,15 +227,16 @@ margin-bottom: 100px;
   }
 }
 .swiper-pagination-bullet {
-  width: 18px !important;
-  height: 18px !important;
+  width: 14px !important;
+  height: 14px !important;
   text-align: center;
   line-height: 20px;
   font-size: 12px;
   color: #fff !important;
   opacity: 100 !important;
   background: #fff !important;
-  border: 3px solid #E31313;
+  border: 1px solid #E31313;
+  box-shadow: 0 0 1px 1px #E31313 !important;
 }
 
 .swiper-pagination-bullet-active {

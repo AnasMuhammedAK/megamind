@@ -17,7 +17,7 @@ function about() {
         <title>megamind | About</title>
       </Head>
       <div>
-        <Banner />
+        <Banner pageName={"About As"}/>
         <AboutSection1 />
         <AboutSection2 />
         <AboutSection3 />
