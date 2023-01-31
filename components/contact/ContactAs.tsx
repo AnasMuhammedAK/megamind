@@ -22,7 +22,7 @@ function ContactAs() {
             className="font-Red_Hat_Display text-4xl dark:text-megamind_white font-extrabold md:max-w-[600px] mt-4"
           >
             ADYAR,
-            <span className="text-megamind_red"> KARNADAKA</span>
+            <span className="text-megamind_red"> KARNATAKA</span>
           </h1>
           <p
             data-aos="zoom-in-up"

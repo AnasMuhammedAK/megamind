@@ -4,6 +4,7 @@ import { useFormik } from "formik";
 import toast from "react-hot-toast";
 import * as yup from "yup";
 import { initAOS } from "@/utils/aos";
+import axios from "axios";
 
 function ContactForm() {
   const initialValues = {
@@ -27,7 +28,7 @@ function ContactForm() {
       .string()
       .min(2, "Minimum 2 digit required")
       .required("Required"),
-      mobile: yup
+    mobile: yup
       .string()
       .matches(phoneRegExp, "Phone number is not valid")
       .required("Required"),
@@ -44,22 +45,20 @@ function ContactForm() {
       onSubmit: async (values) => {
         console.log(values);
         const toastId = toast.loading("Loading...");
-        //   privateAxios(token)
-        //     .post("/api/notice/add", values)
-        //     .then((res) => {
-        //       setServerErr([]);
-        //       toast.success("Notice Added Successfully...", {
-        //         id: toastId,
-        //       });
-        //       console.log(res);
-        //       router.push("/notice/noticeList");
-        //     })
-        //     .catch((err) => {
-        //       setServerErr(err?.response?.data?.message);
-        //       toast.error("Somthing went wrong!", {
-        //         id: toastId,
-        //       });
-        //     });
+        axios
+          .post("/api/enquiry/add", values)
+          .then((res) => {
+            toast.success("Notice Added Successfully...", {
+              id: toastId,
+            });
+            console.log(res);
+          })
+          .catch((err) => {
+            console.log(err?.response?.data?.message);
+            toast.error("Somthing went wrong!", {
+              id: toastId,
+            });
+          });
       },
     });
   useEffect(() => {
@@ -142,7 +141,6 @@ function ContactForm() {
             tabIndex={0}
             arial-label="Please input country name"
             type="tel"
-            pattern="[0-9]{3}-[0-9]{2}-[0-9]"
             className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red dark:border-2 placeholder-megamind_black/40"
             placeholder="Please Enter Mobile Number"
           />
@@ -172,6 +170,7 @@ function ContactForm() {
         </div>
       </div>
       <button
+        type="submit"
         data-aos="zoom-in-up"
         className=" py-3 animationbutton rounded text-white flex items-center justify-center mt-10"
       >
