@@ -14,9 +14,9 @@ export default async function handler(req, res) {
   // console.log(req.body)
   // sendEmail(fullName, companyName, email, mobile, message);
   try {
-    const mail = Enquiry.create(req.body);
-    await Enquiry.save(mail);
-    res.status(200).json(mail);
+    // const mail = Enquiry.create(req.body);
+    // await Enquiry.save(mail);
+    res.status(200).json("success");
 
   } catch (error) {
     console.log(error)
