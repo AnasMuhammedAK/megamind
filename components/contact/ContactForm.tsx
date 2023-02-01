@@ -78,7 +78,7 @@ function ContactForm() {
             tabIndex={0}
             arial-label="Please input name"
             type="name"
-            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red dark:border-2 placeholder-megamind_black/40"
+            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red  placeholder-megamind_black/40"
             placeholder="Please Enter Full Name"
           />
           <p className="text-red-400 text-[13px]">
@@ -99,7 +99,7 @@ function ContactForm() {
             tabIndex={0}
             arial-label="Please Enter Email Address"
             type="email"
-            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red dark:border-2 placeholder-megamind_black/40"
+            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red  placeholder-megamind_black/40"
             placeholder="Please input email address"
           />
           <p className="text-red-400 text-[13px]">
@@ -120,7 +120,7 @@ function ContactForm() {
             role="input"
             arial-label="Please input company name"
             type="name"
-            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red dark:border-2 placeholder-megamind_black/40 "
+            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red  placeholder-megamind_black/40 "
             placeholder="Please Enter Company Name"
           />
           <p className="text-red-400 text-[13px]">
@@ -141,7 +141,7 @@ function ContactForm() {
             tabIndex={0}
             arial-label="Please input country name"
             type="tel"
-            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red dark:border-2 placeholder-megamind_black/40"
+            className="text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red  placeholder-megamind_black/40"
             placeholder="Please Enter Mobile Number"
           />
           <p className="text-red-400 text-[13px]">
@@ -161,7 +161,7 @@ function ContactForm() {
             tabIndex={0}
             aria-label="leave a message"
             role="textbox"
-            className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red dark:border-2 placeholder-megamind_black/40 resize-none"
+            className="h-36 text-base leading-none text-gray-900 p-3 focus:oultine-none focus:border-megamind_red mt-4 bg-white border rounded border-megamind_black/30 dark:border-megamind_red  placeholder-megamind_black/40 resize-none"
             defaultValue={""}
           />
           <p className="text-red-400 text-[13px]">

@@ -4,10 +4,18 @@ import Sidebar from "components/sidebar/Sidebar";
 import React, { useState } from "react";
 import { SlArrowUp } from "react-icons/sl";
 import { Link } from "react-scroll";
+import { Router } from "next/router";
+import NProgress from "nprogress";
 
 function Layout({ children }: any) {
   const [isDark, setIsDark] = useState(false);
   const [sidebar, openSidebar] = useState(false);
+
+  NProgress.configure({ showSpinner: false });
+  Router.events.on("routeChangeStart", () => NProgress.start());
+  Router.events.on("routeChangeComplete", () => NProgress.done());
+  Router.events.on("routeChangeError", () => NProgress.done());
+
   return (
     <div id="target" className="flex min-h-screen flex-col justify-between">
       <header className="border-b-0  fixed top-0 left-0 right-0 z-10 ">
