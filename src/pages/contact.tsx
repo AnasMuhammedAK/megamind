@@ -10,7 +10,7 @@ function contact() {
       <Head>
         <title>megamind | Contact</title>
       </Head>
-      <Banner pageName={"Contact As"} />
+      <Banner pageName={"Contact Us"} />
       <GoogleMap />
       <ContactAs />
     </>

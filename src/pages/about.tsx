@@ -17,26 +17,24 @@ function about() {
         <title>megamind | About</title>
       </Head>
       <div>
-        <Banner pageName={"About As"}/>
+        <Banner pageName={"About Us"} />
         <AboutSection1 />
         <AboutSection2 />
         <AboutSection3 />
         {/*About Section 4 */}
         <Section8 />
-        {/*About Section 4 */}
+
         {/*About Section 5 */}
         <AboutSection6 />
-        {/* company statitics */}
-        {/*About Section 5 */}
+
         {/*About Section 6 */}
         <Section10 />
-        {/*About Section 6 */}
+
         {/*About Section 7 */}
         <Section7 />
-        {/*About Section 7 */}
+
         {/*About Section 8 */}
         <Section12 />
-        {/*About Section 8 */}
       </div>
     </>
   );

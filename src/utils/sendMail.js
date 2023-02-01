@@ -1,11 +1,11 @@
-require("dotenv").config();
+require("dotenv").config({ path: "SENDGRID_API_KEY" });
 import sgMail from "@sendgrid/mail";
 sgMail.setApiKey(process.env.SENDGRID_API_KEY);
 
 function sendEmail(fullName, companyName, email, mobile, message) {
   const msg = {
-    to: "anasabdulkareem99@gmail.com",
-    from: "speedcodecompany@gmail.com",
+    to: "anasmon800@gmail.com",
+    from: "anasabdulkareem99@gmail.com",
     subject: "Enquiry from megamind website",
     html: `<strong>Name : ${fullName} <br/> Email : ${email} <br/> Mobile : ${mobile} <br/>  Company : ${companyName} <br/> Message : ${message}</strong>`,
   };

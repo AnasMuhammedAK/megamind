@@ -93,11 +93,11 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
             </nav>
 
             <div className="flex items-center gap-4">
-              <div className="cursor-pointer">
+              <div className="cursor-pointer border border-megamind_black/10 dark:border-megamind_white/30  w-7 h-7 flex items-center justify-center rounded">
                 {isDark ? (
                   <BsFillSunFill
                     className={
-                      "w-6 h-6 text-megamind_black dark:text-megamind_white hover:text-megamind_red dark:hover:text-megamind_red text-lg"
+                      "w-4 h-4 text-megamind_black dark:text-megamind_white hover:text-megamind_red dark:hover:text-megamind_red text-lg "
                     }
                     onClick={() => {
                       setIsDark(false);
@@ -108,7 +108,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 ) : (
                   <BsFillMoonStarsFill
                     className={
-                      "w-6 h-6  text-megamind_black dark:text-megamind_white hover:text-megamind_red dark:hover:text-megamind_red text-lg"
+                      "w-4 h-4  text-megamind_black dark:text-megamind_white hover:text-megamind_red dark:hover:text-megamind_red text-lg"
                     }
                     onClick={() => {
                       setIsDark(true);
