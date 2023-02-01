@@ -21,7 +21,7 @@ function ContactForm() {
   const validationSchema = yup.object().shape({
     fullName: yup
       .string()
-      .matches(nameRegex, "Only alphabets are allowed")
+      .matches(nameRegex, "Only alphabets are allowed")                                                                                                                                              
       .min(4, "Minimum 4 digit required")
       .required("Required"),
     companyName: yup

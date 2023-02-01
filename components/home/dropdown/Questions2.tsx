@@ -11,7 +11,7 @@ function Questions2({ open, togle, question, answer }: any) {
         }`}
       >
         <div
-          className={`py-2 px-4 flex justify-between items-center`}
+          className={`py-2  flex justify-between items-center`}
           onClick={togle}
         >
           <p
@@ -28,14 +28,14 @@ function Questions2({ open, togle, question, answer }: any) {
           </div>
         </div>
         <Collapse isOpened={open}>
-          <hr className="mx-4 border border-megamind_black dark:border-megamind_red opacity-50" />
+          <hr className=" border border-megamind_black dark:border-megamind_red opacity-50" />
           <div className="mx-4 py-8 text-megamind_black/70 dark:text-megamind_white/70">
             {answer}
           </div>
         </Collapse>
       </div>
       {!open && (
-        <hr className="mx-2 mb-8 border border-megamind_black dark:border-megamind_white opacity-10" />
+        <hr className=" mb-8 border border-megamind_black dark:border-megamind_white opacity-5" />
       )}
     </>
   );

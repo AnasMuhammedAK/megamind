@@ -2,6 +2,7 @@ import { initAOS } from "@/utils/aos";
 import Link from "next/link";
 import React, { useEffect } from "react";
 import Carousel from "@itseasy21/react-elastic-carousel";
+import { useRouter } from "next/router";
 
 function Services() {
   const breakPoints = [
@@ -14,13 +15,14 @@ function Services() {
   useEffect(() => {
     initAOS();
   }, []);
+  const router = useRouter()
   return (
     <div
       data-aos="zoom-in-up"
       className={`px-4 py-1`}
     >
       <Carousel breakPoints={breakPoints} enableAutoPlay autoPlaySpeed={3000}>
-        <section>
+        <section onClick={() => router.push('/services/details/1')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
             <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-6-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
@@ -42,9 +44,9 @@ function Services() {
           </div>
         </section>
 
-        <section>
+        <section onClick={() => router.push('/services/details/2')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
-            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-7-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
+            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-7-min.jpg)] relative h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
               <div className="w-[430px] rounded-b-lg  h-28 bg-megamind_white dark:bg-megamind_black absolute bottom-2 translate-y-36  group-hover:translate-y-[-8px] transition-all duration-300">
                 <div className="flex items-center my-4 px-10">
@@ -59,9 +61,9 @@ function Services() {
           </div>
         </section>
 
-        <section>
+        <section onClick={() => router.push('/services/details/3')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
-            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-8-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
+            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-8-min.jpg)] relative h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
               <div className="w-[430px] rounded-b-lg  h-28 bg-megamind_white dark:bg-megamind_black absolute bottom-2 translate-y-36  group-hover:translate-y-[-8px] transition-all duration-300">
                 <div className="flex items-center my-4 px-10">
@@ -76,9 +78,9 @@ function Services() {
           </div>
         </section>
 
-        <section>
+        <section onClick={() => router.push('/services/details/4')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
-            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-9-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
+            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-9-min.jpg)] relative  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
               <div className="w-[430px] rounded-b-lg  h-28 bg-megamind_white dark:bg-megamind_black absolute bottom-2 translate-y-36  group-hover:translate-y-[-8px] transition-all duration-300">
                 <div className="flex items-center my-4 px-10">
@@ -93,9 +95,9 @@ function Services() {
           </div>
         </section>
 
-        <section>
+        <section onClick={() => router.push('/services/details/5')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
-            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-10-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
+            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-10-min.jpg)] relative h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
               <div className="w-[430px] rounded-b-lg  h-28 bg-megamind_white dark:bg-megamind_black absolute bottom-2 translate-y-36  group-hover:translate-y-[-8px] transition-all duration-300">
                 <div className="flex items-center my-4 px-10">
@@ -109,9 +111,9 @@ function Services() {
             </div>
           </div>
         </section>
-        <section>
+        <section onClick={() => router.push('/services/details/6')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
-            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-6-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
+            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-6-min.jpg)] relative h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
               <div className="w-[430px] rounded-b-lg  h-28 bg-megamind_white dark:bg-megamind_black absolute bottom-2 translate-y-36  group-hover:translate-y-[-8px] transition-all duration-300">
                 <div
@@ -131,9 +133,9 @@ function Services() {
           </div>
         </section>
 
-        <section>
+        <section onClick={() => router.push('/services/details/7')}>
           <div className="h-[430px] max-h-[430px] w-[430px] mb-10 overflow-hidden  group">
-            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-7-min.jpg)]  h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
+            <div className="bg-[url(https://surielementor.com/bixoswp/wp-content/uploads/2022/04/profolio-7-min.jpg)] relative h-full w-full bg-cover bg-center hover:scale-110 transition-all duration-500 ">
               <div className="w-full h-full hover:bg-megamind_red opacity-20 "></div>
               <div className="w-[430px] rounded-b-lg  h-28 bg-megamind_white dark:bg-megamind_black absolute bottom-2 translate-y-36  group-hover:translate-y-[-8px] transition-all duration-300">
                 <div className="flex items-center my-4 px-10">

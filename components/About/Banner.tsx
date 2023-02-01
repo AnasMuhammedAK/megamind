@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 
-function Banner({ pageName }: any) {
+function Banner({ pageName, Active }: any) {
   return (
     <div className="bg-[url(/images/banner.jpg)] w-full h-80 bg-cover bg-center">
       <div className="w-full bg-black bg-opacity-50 h-80 flex flex-col justify-center items-center ">
@@ -15,7 +15,6 @@ function Banner({ pageName }: any) {
             #text {
               width: 100%;
               position: relative;
-              /* top: 50%; */
               transform: translateY(-50%);
             }
 
@@ -70,6 +69,16 @@ function Banner({ pageName }: any) {
             Home Page
           </Link>
           <AiOutlineRight />
+          {Active === "service_details" ? (
+            <>
+              <Link href={"/services"} className="hover:text-megamind_red">
+                Services
+              </Link>
+              <AiOutlineRight />
+            </>
+          ) : (
+            ""
+          )}
           <p>{pageName}</p>
         </div>
       </div>
