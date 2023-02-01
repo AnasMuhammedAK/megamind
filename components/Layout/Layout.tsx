@@ -6,6 +6,7 @@ import { SlArrowUp } from "react-icons/sl";
 import { Link } from "react-scroll";
 import { Router } from "next/router";
 import NProgress from "nprogress";
+import { Toaster } from "react-hot-toast";
 
 function Layout({ children }: any) {
   const [isDark, setIsDark] = useState(false);
@@ -27,6 +28,7 @@ function Layout({ children }: any) {
         />
       </header>
       <main className="flex ">
+        <Toaster position="top-right" reverseOrder={false} />
         <Sidebar openSidebar={openSidebar} sidebar={sidebar} />
         <div className="flex-grow mt-24">
           {children}

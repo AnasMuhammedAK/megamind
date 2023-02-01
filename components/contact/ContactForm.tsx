@@ -48,7 +48,7 @@ function ContactForm() {
         axios
           .post("/api/enquiry/add", values)
           .then((res) => {
-            toast.success("Notice Added Successfully...", {
+            toast.success("Sent Successfully...", {
               id: toastId,
             });
             console.log(res);
