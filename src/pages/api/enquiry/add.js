@@ -11,6 +11,7 @@ export default async function handler(req, res) {
   console.log("Connecting DB...");
   await connectDB();
   console.log("DB connected");
+  // console.log(req.body)
   // sendEmail(fullName, companyName, email, mobile, message);
   try {
     const mail = Enquiry.create(req.body);

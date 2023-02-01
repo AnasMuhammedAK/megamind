@@ -43,7 +43,6 @@ function ContactForm() {
       initialValues,
       validationSchema,
       onSubmit: async (values) => {
-        console.log(values);
         const toastId = toast.loading("Loading...");
         axios
           .post("/api/enquiry/add", values)
