@@ -53,7 +53,7 @@ function ContactForm() {
             console.log(res);
           })
           .catch((err) => {
-            console.log(err?.response?.data?.message);
+            console.log(err);
             toast.error("Somthing went wrong!", {
               id: toastId,
             });
