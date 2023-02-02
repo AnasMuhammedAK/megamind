@@ -1,6 +1,13 @@
 import { initAOS } from "@/utils/aos";
 import Link from "next/link";
 import React, { useEffect } from "react";
+import {
+  AiFillFacebook,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiFillYoutube,
+  AiOutlineTwitter,
+} from "react-icons/ai";
 import ContactForm from "./ContactForm";
 
 function ContactAs() {
@@ -54,6 +61,67 @@ function ContactAs() {
               </Link>
             </div>
           </div>
+          <div>
+            <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+              <li>
+                <Link
+                  href="https://www.youtube.com/@megamind.studio"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                >
+                  <span className="sr-only ">Youtube</span>
+                  <AiFillYoutube className="text-2xl transition-all hover:scale-125 duration-100" />
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="https://www.instagram.com/megamind.studios/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                >
+                  <span className="sr-only">Instagram</span>
+                  <AiFillInstagram className="text-2xl transition-all hover:scale-125 duration-100" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="https://www.facebook.com/megamind.studiosmlr/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                >
+                  <span className="sr-only">Facebook</span>
+                  <AiFillFacebook className="text-2xl transition-all hover:scale-125 duration-100" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                >
+                  <span className="sr-only">Twitter</span>
+                  <AiOutlineTwitter className="text-2xl transition-all hover:scale-125 duration-100" />
+                </Link>
+              </li>
+
+              <li>
+                <Link
+                  href="https://www.linkedin.com/company/megamind-creative-outlooks/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                >
+                  <span className="sr-only">Linkedin</span>
+                  <AiFillLinkedin className="text-2xl transition-all hover:scale-125 duration-100" />
+                </Link>
+              </li>
+            </ul>
+          </div>
         </div>
         <div>
           <h1
@@ -65,7 +133,7 @@ function ContactAs() {
               CONTACTS
             </span>
           </h1>
-          <p  data-aos="zoom-in-up" className="text-gray-500 my-4">
+          <p data-aos="zoom-in-up" className="text-gray-500 my-4">
             Nunc velit metus, volutpat elementum euismod eget, cursus nec nunc.
           </p>
           <ContactForm />

@@ -16,13 +16,13 @@ export default function SidebarItem({ item, openSidebar }: any) {
       >
         <div
           onClick={() => setOpen(!open)}
-          className={`sidebar-title hover:text-megamind_red cursor-pointer  ${
+          className={`sidebar-title hover:text-megamind_red cursor-pointer  py-2 ${
             open
               ? " text-megamind_red font-bold text-3xl transition-all duration-300 ease-in-out"
               : "transition-all duration-300 ease-in-out"
           } `}
         >
-          <span>
+          <span className="text-sm">
             {item.icon && <i className={item.icon}></i>}
             {item.title}
           </span>
@@ -33,7 +33,7 @@ export default function SidebarItem({ item, openSidebar }: any) {
         </div>
         
         {open && <hr className="opacity-50 border-megamind_red mx-4" />}
-        <div className="sidebar-content">
+        <div className="sidebar-content ">
           {item.childrens.map((child: any, index: number) => (
             <>
               <SidebarItem key={index} item={child} />
@@ -49,7 +49,7 @@ export default function SidebarItem({ item, openSidebar }: any) {
       <Link
         onClick={() => openSidebar(false)}
         href={item.path || "#"}
-        className={`sidebar-item plain hover:text-megamind_red text-[12px]`}
+        className={`sidebar-item plain hover:text-megamind_red text-sm my-2 `}
       >
         {item.icon && <i className={item.icon}></i>}
         {item.title}

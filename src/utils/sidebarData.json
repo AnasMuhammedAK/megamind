@@ -1,465 +1,57 @@
 [
     {
-        "title": "ABOUT",
+        "title": "HOME",
         "icon": "bi-gear-fill",
+        "path": "/"
+    },
+    {
+        "title": "ABOUT",
+        "icon": "bi-info-circle-fill",
+        "path": "/about"
+    },
+    {
+        "title": "SERVICES",
+        "icon": "bi-person-fill",
+        "path": "/services"
+    },
+    {
+        "title": "PROJECTS",
+        "icon": "bi-question-circle-fill",
+        "path": "/projects"
+    },
+    {
+        "title": "BLOGS",
+        "icon": "bi-question-circle-fill",
+        "path": "/blogs"
+    },
+    {
+        "title": "CONTACT",
+        "icon": "bi-bug",
+        "path": "/contact"
+    },
+    {
+        "title": "CAREERS",
+        "icon": "bi-bug",
+        "path": "/careers"
+    },
+    {
+        "title": "USEFUL LINKS",
+        "icon": "bi-bug",
         "childrens": [
             {
-                "title": "ABOUT COLLEGE",
-                "icon": "bi-house-fill",
+                "title": "Link 1",
+                "icon": "bi-bug",
                 "path": "/"
             },
             {
-                "title": "VISSION & MISSION",
-                "icon": "bi-info-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "FAQ",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "MOU",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "BHANDARY FOUNDATION",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "THE CHAIRMAN",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "THE PRINCIPAL",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "GOVERNING COUNCIL",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "MANDATORY DISCLOSURES",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "ACCREDITATION",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "ATAL RANKING",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "MILESTONES",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            },
-            {
-                "title": "TESTIMONIAL LOCATION",
-                "icon": "bi-question-circle-fill",
-                "path": "/about"
-            }
-        ]
-    },
-    {
-        "title": "ACCADEMICS",
-        "icon": "bi-info-circle-fill",
-        "childrens": [
-            {
-                "title": "UNDUR GRADUATE",
-                "icon": "bi-house-fill",
-                "path": "/login",
-                "childrens": [
-                    {
-                        "title": "COMOUTER SCIENCE & ENG",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    },
-                    {
-                        "title": "ARTIFICIAL INTELIGENCE",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    },
-                    {
-                        "title": "DATA SCIENCE",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    },
-                    {
-                        "title": "INFORMATION SCIENCE & ENG",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    },
-                    {
-                        "title": "ELECTONICS & COM ENG",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    },
-                    {
-                        "title": "MECHANICAL ENG",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    },
-                    {
-                        "title": "CIVIL ENG",
-                        "icon": "bi-house-fill",
-                        "path": "/register"
-                    }
-                ]
-            },
-            {
-                "title": "BASIC SCIENCE",
-                "icon": "bi-house-fill",
-                "path": "/register",
-                "childrens": [
-                    {
-                        "title": "CHEMISTRY",
-                        "icon": "bi-house-fill",
-                        "path": "/profile"
-                    },
-                    {
-                        "title": "MATHEMATICS",
-                        "icon": "bi-house-fill",
-                        "path": "/profile"
-                    },
-                    {
-                        "title": "PHYSICS",
-                        "icon": "bi-house-fill",
-                        "path": "/profile"
-                    },
-                    {
-                        "title": "HUMANITIES",
-                        "icon": "bi-house-fill",
-                        "path": "/profile"
-                    }
-                ]
-            },
-            {
-                "title": "POST GRADUATE",
-                "icon": "bi-house-fill",
-                "path": "/forgot-password"
-            },
-            {
-                "title": "COURSES OFFERED",
-                "icon": "bi-house-fill",
-                "path": "/reset-password"
-            },
-            {
-                "title": "TEACHING FACULTY",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "CALENDAR OF EVENTS",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "VALUE ADDED COURSES",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "RESEARCH CENTER",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "CODE OF CONTACUT",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "SYLLABUS",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "USEFUL LINKS",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "LIBRARY",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            }
-        ]
-    },
-    {
-        "title": "ADMISSION",
-        "icon": "bi-person-fill",
-        "childrens": [
-            {
-                "title": "ADMISSION PROCEDURES",
-                "icon": "bi-house-fill",
-                "path": "/profile"
-            },
-            {
-                "title": "APPLAY ONLINE",
-                "icon": "bi-house-fill",
-                "path": "/logout"
-            },
-            {
-                "title": "APPLICATION FORM",
-                "icon": "bi-house-fill",
-                "childrens": [
-                    {
-                        "title": "BE",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "MBA",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    }
-                ]
-            },
-            {
-                "title": "SCHOLARSHIP",
-                "icon": "bi-house-fill",
-                "path": "/settings/notifications"
-            },
-            {
-                "title": "WHO CAN APPLAY",
-                "icon": "bi-house-fill",
-                "path": "/logout"
-            }
-        ]
-    },
-    {
-        "title": "LIFE AT SAHYADRI",
-        "icon": "bi-question-circle-fill",
-        "childrens": [
-            {
-                "title": "LIBRARY",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "HOSTEL",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "TRANSPORTATION",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "CORE FACULTIES",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "ANTI SEXUEL HARASSMENT",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "GRIEVANCE REDRESSAL COMMITEE",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "ANTI RAGGING COMMITEE",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "SC/ST/OBC",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            }
-        ]
-    },
-    {
-        "title": "ACTIVIES",
-        "icon": "bi-question-circle-fill",
-        "childrens": [
-            {
-                "title": "FIT INDIA",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "COCLAVE UPDATE",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "JOURNALS",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "DOWNLOADS",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "INDUSTRY INTERACTION",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "CORPORATE SOCIAL RESPONSIBILITY",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "SAHYADRI INITIATIVES",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "VISIT  PROGRAMMES",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "SPORTS & CLUBS",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "SEMINAR & WORKSHOPS",
-                "icon": "bi-house-fill",
-                "path": "/settings/account"
-            },
-            {
-                "title": "ACHIEVEMENTS",
-                "icon": "bi-house-fill",
-                "childrens": [
-                    {
-                        "title": "PHYSICAL EDUCATION",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "1ST YEAR STUDENTS ACHIEVENTS 2018",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "STARTUPS & INDUSTRIES ACHIEVENTS",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "ART & CULTURE",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "NSS",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "SAHYADRI CORPUS FUND",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "MAIN CENTRE",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "SPSS",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "SSTH",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    }
-                ]
-            },
-            {
-                "title": "ASSOCIATIONS",
-                "icon": "bi-house-fill",
-                "childrens": [
-                    {
-                        "title": "AENCES",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "FLAMES",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "CLOUDS",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "SPACE",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    },
-                    {
-                        "title": "STAISE",
-                        "icon": "bi-house-fill",
-                        "path": "/settings/account"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "title": "MEDIA",
-        "icon": "bi-bug",
-        "childrens": [
-            {
-                "title": "ALBUM",
+                "title": "Link 2",
                 "icon": "bi-bug",
-                "path": "/report-bug"
+                "path": "/"
             },
             {
-                "title": "GALLERY",
+                "title": "Link 3",
                 "icon": "bi-bug",
-                "path": "/report-bug"
-            },
-            {
-                "title": "VIDEO",
-                "icon": "bi-bug",
-                "path": "/report-bug"
-            }
-        ]
-    },
-    {
-        "title": "RESEARCH",
-        "icon": "bi-bug",
-        "childrens": [
-            {
-                "title": "R&D",
-                "icon": "bi-bug",
-                "path": "/report-bug"
-            },
-            {
-                "title": "CENT",
-                "icon": "bi-bug",
-                "path": "/report-bug"
-            },
-            {
-                "title": "PUBLICATIONS",
-                "icon": "bi-bug",
-                "path": "/report-bug"
+                "path": "/"
             }
         ]
     }

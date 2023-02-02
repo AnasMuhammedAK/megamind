@@ -96,6 +96,14 @@ function ServiceDetails() {
                 <AiFillCaretRight />
                 <Link href={"/services/details/3"}>SEO & Content Writing</Link>
               </div>
+              <div className={`flex items-center cursor-pointer ${id == 4 && "text-megamind_red font-semibold"}`}>
+                <AiFillCaretRight />
+                <Link href={"/services/details/4"}>Graphic design</Link>
+              </div>
+              <div className={`flex items-center cursor-pointer ${id == 5 && "text-megamind_red font-semibold"}`}>
+                <AiFillCaretRight />
+                <Link href={"/services/details/5"}>Bussiness Agency</Link>
+              </div>
             </div>
           </div>
         </div>

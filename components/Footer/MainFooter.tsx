@@ -5,18 +5,16 @@ import React from "react";
 import {
   AiFillFacebook,
   AiFillInstagram,
-  AiOutlineDribbble,
-  AiOutlineGithub,
+  AiFillLinkedin,
+  AiFillYoutube,
   AiOutlineTwitter,
 } from "react-icons/ai";
 function MainFooter({ isDark }: any) {
   const router = useRouter();
-  const date= new Date()
-  const year = date.getFullYear()
+  const date = new Date();
+  const year = date.getFullYear();
   return (
-    <footer
-      className="bg-megamind_white dark:bg-megamind_black shadow-inner"
-    >
+    <footer className="bg-megamind_white dark:bg-megamind_black shadow-inner">
       <div className="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
           <div>
@@ -50,19 +48,19 @@ function MainFooter({ isDark }: any) {
             <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
               <li>
                 <Link
-                  href="/"
+                  href="https://www.youtube.com/@megamind.studio"
                   rel="noreferrer"
                   target="_blank"
                   className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
                 >
-                  <span className="sr-only ">Facebook</span>
-                  <AiFillFacebook className="text-2xl transition-all hover:scale-125 duration-100" />
+                  <span className="sr-only ">Youtube</span>
+                  <AiFillYoutube className="text-2xl transition-all hover:scale-125 duration-100" />
                 </Link>
               </li>
 
               <li>
                 <Link
-                  href="/"
+                  href="https://www.instagram.com/megamind.studios/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
@@ -71,10 +69,20 @@ function MainFooter({ isDark }: any) {
                   <AiFillInstagram className="text-2xl transition-all hover:scale-125 duration-100" />
                 </Link>
               </li>
-
               <li>
                 <Link
-                  href="/"
+                  href="https://www.facebook.com/megamind.studiosmlr/"
+                  rel="noreferrer"
+                  target="_blank"
+                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                >
+                  <span className="sr-only">Facebook</span>
+                  <AiFillFacebook className="text-2xl transition-all hover:scale-125 duration-100" />
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/#"
                   rel="noreferrer"
                   target="_blank"
                   className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
@@ -86,25 +94,13 @@ function MainFooter({ isDark }: any) {
 
               <li>
                 <Link
-                  href="/"
+                  href="https://www.linkedin.com/company/megamind-creative-outlooks/"
                   rel="noreferrer"
                   target="_blank"
                   className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
                 >
-                  <span className="sr-only">Github</span>
-                  <AiOutlineGithub className="text-2xl transition-all hover:scale-125 duration-100" />
-                </Link>
-              </li>
-
-              <li>
-                <Link
-                  href="/"
-                  rel="noreferrer"
-                  target="_blank"
-                  className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
-                >
-                  <span className="sr-only">Dribble</span>
-                  <AiOutlineDribbble className="text-2xl transition-all hover:scale-125 duration-100" />
+                  <span className="sr-only">Linkedin</span>
+                  <AiFillLinkedin className="text-2xl transition-all hover:scale-125 duration-100" />
                 </Link>
               </li>
             </ul>
@@ -221,13 +217,12 @@ function MainFooter({ isDark }: any) {
 
                   <li>
                     <Link
-                      className="text-megamind_black transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red"
+                      className="text-megamind_black dark:text-megamind_white transition hover:text-megamind_red  dark:hover:text-megamind_red"
                       href="/"
                     >
                       Support
                     </Link>
                   </li>
-
                 </ul>
               </nav>
             </div>
@@ -241,11 +236,12 @@ function MainFooter({ isDark }: any) {
                 <li>
                   <Link
                     className="flex items-center justify-start gap-1.5 sm:justify-start"
-                    href="/"
+                    href="mailto:hello@megamind.studio"
+                    target={"_blank"}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
-                      className="h-5 w-5 shrink-0 text-gray-900 dark:text-white"
+                      className="h-5 w-5 shrink-0 text-megamind_black dark:text-megamind_white "
                       fill="none"
                       viewBox="0 0 24 24"
                       stroke="currentColor"
@@ -258,8 +254,8 @@ function MainFooter({ isDark }: any) {
                       />
                     </svg>
 
-                    <span className="text-gray-700 dark:text-gray-300">
-                      john@doe.com
+                    <span className="text-megamind_black dark:text-megamind_white  dark:hover:text-megamind_red hover:text-megamind_red">
+                      hello@megamind.studio
                     </span>
                   </Link>
                 </li>
@@ -267,7 +263,8 @@ function MainFooter({ isDark }: any) {
                 <li>
                   <Link
                     className="flex items-center justify-start  gap-1.5 sm:justify-start"
-                    href="/"
+                    href="tel:123-456-7890"
+                    target={"_blank"}
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -284,8 +281,8 @@ function MainFooter({ isDark }: any) {
                       />
                     </svg>
 
-                    <span className="text-gray-700 dark:text-gray-300">
-                      0123456789
+                    <span className="text-megamind_black dark:text-megamind_white  dark:hover:text-megamind_red hover:text-megamind_red">
+                      123-456-7890
                     </span>
                   </Link>
                 </li>
@@ -293,7 +290,7 @@ function MainFooter({ isDark }: any) {
                 <li className="flex items-start justify-start  gap-1.5 sm:justify-start">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-5 w-5 shrink-0 text-gray-900 dark:text-white"
+                    className="h-5 w-5 shrink-0 text-megamind_black dark:text-megamind_white "
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
@@ -311,8 +308,8 @@ function MainFooter({ isDark }: any) {
                     />
                   </svg>
 
-                  <address className="-mt-0.5 not-italic text-gray-700 dark:text-gray-300">
-                    213 Lane, London, United Kingdom
+                  <address className="-mt-0.5 not-italic text-megamind_black dark:text-megamind_white ">
+                    405, 4th Floor, Sahyadri Campus, Mangaluru, Karnataka
                   </address>
                 </li>
               </ul>
@@ -329,7 +326,7 @@ function MainFooter({ isDark }: any) {
                 className="inline-block text-megamind_red underline transition hover:text-megamind_red/75 dark:text-megamind_red dark:hover:text-megamind_red/75"
                 href="/"
               >
-                 Terms & Conditions
+                Terms & Conditions
               </Link>
 
               <span> </span>

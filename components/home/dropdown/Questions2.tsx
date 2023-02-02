@@ -7,7 +7,8 @@ function Questions2({ open, togle, question, answer }: any) {
     <>
       <div
         className={`cursor-pointer    ${
-          open && "bg-megamind_white dark:bg-megamind_black rounded-md py-4"
+          open &&
+          "bg-megamind_white dark:bg-megamind_black rounded-md py-4 px-2"
         }`}
       >
         <div
