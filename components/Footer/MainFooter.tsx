@@ -255,7 +255,7 @@ function MainFooter({ isDark }: any) {
                     </svg>
 
                     <span className="text-megamind_black dark:text-megamind_white  dark:hover:text-megamind_red hover:text-megamind_red">
-                      hello@megamind.studio
+                      hello@megamind <br />.studio
                     </span>
                   </Link>
                 </li>

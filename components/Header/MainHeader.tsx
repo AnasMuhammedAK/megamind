@@ -42,7 +42,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                     className="text-megamind_dark transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display font-Red_Hat_Display"
                     href="/"
                   >
-                    Home
+                    Home  
                   </Link>
                 </li>
 
@@ -76,7 +76,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
                 <li>
                   <Link
                     className="text-megamind_dark  transition hover:text-megamind_red dark:text-megamind_white dark:hover:text-megamind_red lg:text-lg xl:text-xl font-medium font-Red_Hat_Display"
-                    href="/blog"
+                    href="/blogs"
                   >
                     Blog
                   </Link>
@@ -93,7 +93,7 @@ function MainHeader({ isDark, setIsDark, sidebar, openSidebar }: any) {
             </nav>
 
             <div className="flex items-center gap-4">
-              <div className="cursor-pointer border border-megamind_black/10 dark:border-megamind_white/30  w-7 h-7 flex items-center justify-center rounded">
+              <div className="cursor-pointer border border-megamind_black/10 dark:border-megamind_white/30  w-9 h-9 flex items-center justify-center rounded">
                 {isDark ? (
                   <BsFillSunFill
                     className={
