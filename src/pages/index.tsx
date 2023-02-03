@@ -10,6 +10,7 @@ import Section6 from "components/home/Section6";
 import Section7 from "components/home/Section7";
 import Section8 from "components/home/Section8";
 import Section9 from "components/home/Section9";
+import Projects from "components/project/Projects";
 import Head from "next/head";
 import CTA from "../../components/cta/CTA";
 
@@ -29,6 +30,7 @@ export default function Home() {
       <Section6 />
       <Section7 />
       <Section8 />
+      <Projects />
       <Section9 />
       <Section10 />
       <Section11 />

@@ -1,4 +1,5 @@
 import { initAOS } from "@/utils/aos";
+import Link from "next/link";
 import React, { useEffect } from "react";
 import { BsArrowRight } from "react-icons/bs";
 
@@ -23,7 +24,7 @@ function Section8() {
         EXPERT<span className="text-megamind_red font-semibold px-2">TEAM</span>
         MEMBER
       </h1>
-     
+
       <div
         data-aos="zoom-in-up"
         className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-10 py-16"
@@ -90,13 +91,14 @@ function Section8() {
           </div>
         </div>
       </div>
-      <button
-        data-aos="fade-right"
-        className="float-right mt-[-90px] dark:text-megamind_white text-lg underline hover:text-megamind_red flex items-center justify-center"
-      >
-        View All
-        <BsArrowRight className=" text-sm ml-3 mt-1" />
-      </button>
+      <section className="flex justify-center 2xl:-mt-20">
+        <Link
+          href={"/projects"}
+          className=" py-3 animationbutton rounded text-white flex items-center justify-center"
+        >
+          All Team <BsArrowRight className="text-xl ml-3 mt-1" />
+        </Link>
+      </section>
     </div>
   );
 }

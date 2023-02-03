@@ -5,6 +5,7 @@ import Services from "components/About/Services";
 import Section10 from "components/home/Section10";
 import Section12 from "components/home/Section12";
 import Section7 from "components/home/Section7";
+import Projects from "components/project/Projects";
 import Head from "next/head";
 import React from "react";
 
@@ -24,6 +25,7 @@ function ServicesPage() {
       <AboutSection3 />
       <Section7 />
       <Section10 />
+      <Projects />
       <Section12 />
     </>
   );

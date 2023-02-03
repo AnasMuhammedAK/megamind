@@ -7,6 +7,7 @@ import Section10 from "components/home/Section10";
 import Section12 from "components/home/Section12";
 import Section7 from "components/home/Section7";
 import Section8 from "components/home/Section8";
+import Projects from "components/project/Projects";
 import Head from "next/head";
 import React from "react";
 
@@ -26,13 +27,13 @@ function about() {
 
         {/*About Section 5 */}
         <AboutSection6 />
-
+        <Projects />
         {/*About Section 6 */}
         <Section10 />
 
         {/*About Section 7 */}
         <Section7 />
-
+        
         {/*About Section 8 */}
         <Section12 />
       </div>
